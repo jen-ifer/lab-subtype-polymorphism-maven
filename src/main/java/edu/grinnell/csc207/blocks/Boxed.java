@@ -68,7 +68,7 @@ public class Boxed implements AsciiBlock {
     } else if ((i > 0) && (i <= h)) {
       // Stuff within the box
       return "|" + this.contents.row(i - 1) + "|";
-    } else {
+    } else { 
       throw new Exception("Invalid row " + i);
     } // if/else
   } // row(int)

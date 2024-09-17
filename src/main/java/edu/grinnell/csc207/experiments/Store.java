@@ -27,6 +27,9 @@ public class Store {
         new Purchase[] {
           new Item("hammer", "hits things", 899),
           new Item("penny candy", "imaginary", 1),
+          new Item("grapes", "food", 150),
+          new BulkItem("saffron", "yellow", "gram", 1111, 2),
+          new Multiple ("nails", "tool",2, 63),
         });
     pen.close();
   } // main(String[])
